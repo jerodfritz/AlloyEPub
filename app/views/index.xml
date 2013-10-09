@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<WebView id="webView" url="epub/demo/index.html" />
+	</Window>
+</Alloy>

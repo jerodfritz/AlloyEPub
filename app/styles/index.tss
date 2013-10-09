@@ -1,0 +1,12 @@
+".container": {
+	backgroundColor:"white",
+	top: Alloy.CFG.windowTop
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+"#webView":{
+  contextMenu: 'Context Menu Title'
+} 
