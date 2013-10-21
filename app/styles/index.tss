@@ -8,5 +8,14 @@
 	color: "#000"
 }
 "#webView":{
-  contextMenu: 'Context Menu Title'
+  	contextMenu: [
+		{
+			title: 'Do Something', //Menu title
+			eventTag: 'do_something' //The string passed back in e.eventTag whn the menu is selected
+		},
+		{
+			title: 'Do Something Else',
+			eventTag: 'do_something_else'
+		}
+	]
 } 
